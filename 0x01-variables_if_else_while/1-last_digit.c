@@ -3,12 +3,11 @@
 #include <time.h>
 
 /**
-* main - print if the number is postive, zero, or negative
-*
-* Description: using the main function
-* this program prints the last digit of a number
-* Return: 0
-*/
+ * main - Entry point
+ *
+ * Return : Always 0 (Success)
+ */
+ 
 
 int main(void)
 {
