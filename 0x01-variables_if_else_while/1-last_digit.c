@@ -1,14 +1,15 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+/* more headers goes there */
+#include <stdio.h>
+/* betty style doc for function main goes there */
 /**
- * main - Entry point
- *
- * Return : Always 0 (Success)
- */
- 
-
+* main - print if the number is postive, zero, or negative
+*
+* Description: using the main function
+* this program prints "Programming is positive, zero, or negative
+* Return: 0
+*/
 int main(void)
 {
 	int n, lastDigit;
