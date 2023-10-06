@@ -12,9 +12,9 @@ This program will assign a random number to the variable n each time it is execu
   * if the number is greater than 0: is positive
   * if the number is 0: is zero
   * if the number is less than 0: is negative
-  - followed by a new line
+- followed by a new line
 
-## This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n.
+## 1. This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n.
 
 - You can find the source code here
 - The variable n will store a different value every time you run this program
@@ -138,7 +138,7 @@ Write a program that prints all possible combinations of two two-digit numbers.
 - You are not allowed to use any variable of type char
 - All your code should be in the main function
 
-# Compiles the files :
+# Compile the files :
 - The commend for compile the file is : " gcc -Wall -pedantic -Werror -Wextra -std=gnu89 name_of_file.c -o name_of_file"
 - This commend is for compiles the "nam_of_file.c" source code file using the GCC compiler with various warning flags and specifies the output executable as "name_of_file" If there are any warning messages, they will be treated as errors due to the -Werror flag.
  
