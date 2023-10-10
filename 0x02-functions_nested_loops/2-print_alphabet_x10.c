@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet - printes the alphabet in lowercase
- *
+ * description: print alphabet in lowercase 10 times
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
