@@ -1,36 +1,52 @@
 #include "main.h"
-#include<stdio.h>
-
 /**
- * print_times_table - function that prints the n times table, starting with 0.
- * @n: parameter to be checked
+ * print_times_table - Prints the n times table
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Description: This function prints the times table for a given integer `n`.
+ * The table starts with 0 and goes up to n times 10.
+ *
+ * @n: The times table to be printed
  */
 void print_times_table(int n)
 {
-	int i, j, result;
+	int x, y, z;
 
-	if (n > 15 || n < 0)
-		printf("\n");
-	else
+	if (n >= 0 && n <= 14)
 	{
-		for (i = 0 ; i <= n ; i++)
+		for (x = 0; x <= n; x++)
 		{
-			for (j = 0 ; j <= n ; j++)
+			for (y = 0; y <= n; y++)
 			{
-				result = i * j;
-				if (j == 0)
-					printf("%d, ", result);
+				z = x * y;
+				if (z > 99)
+				{
+					_putchar(',');
+					_putchar(32);
+					_putchar((z / 100) + '0');
+					_putchar(((z / 10) % 10) + '0');
+					_putchar((z % 10) + '0');
+				}
+				else if (z > 9)
+				{
+					_putchar(',');
+					_putchar(32);
+					_putchar(32);
+					_putchar(((z / 10) % 10) + '0');
+					_putchar((z % 10) + '0');
+				}
 				else
 				{
-					printf("%3d", result);
-					if (j != n)
-						printf(", ");
+					if (y != 0)
+					{
+						_putchar(',');
+						_putchar(32);
+						_putchar(32);
+						_putchar(32);
+					}
+					_putchar(z + '0');
 				}
 			}
-			printf("\n");
+			_putchar('\n');
 		}
 	}
 }
