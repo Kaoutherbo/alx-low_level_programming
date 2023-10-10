@@ -6,22 +6,24 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
-{
-	unsigned long int term1	= 1;
-	unsigned long int term2 = 2;
-	unsigned long int next;
-	int i;
+int main(void) {
+    unsigned long fib1 = 1, fib2 = 1, nextFib;
 
-	printf("%lu, ", term1);
-	for (i = 1 ; i < 98 ; i++)
-	{
-		printf("%lu", term2);
-		next = term1 + term2;
-		term1 = term2;
-		term2 = next;
-		if (i != 97)
-			printf(", ");
-	}
-	return (0);
+    printf("%lu, %lu, ", fib1, fib2);
+
+    for (int i = 3; i <= 98; i++) {
+        nextFib = fib1 + fib2;
+        printf("%lu", nextFib);
+
+        if (i < 98) {
+            printf(", ");
+        }
+
+        fib1 = fib2;
+        fib2 = nextFib;
+    }
+
+    printf("\n");
+    return 0;
 }
+
