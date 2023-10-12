@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * _isupper - function that checks for uppercase character.
+ * _isdigit - function that checks for a digit (0 through 9).
  * @c: parameter to be chacked
  *
  * Return: On success 1.
