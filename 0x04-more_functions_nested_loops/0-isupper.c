@@ -11,8 +11,11 @@
 
 int _isupper(int c)
 {
-if (isupper(c))
-return (1);
-else
-return (0); 
+	int result;
+
+	if (isupper(c))
+		result = 1;
+	else
+		result = 0;
+	return (result);
 }
