@@ -7,20 +7,23 @@
  *
  * Return: Always 0 (Success)
  */
-int  main(void)
-{
-    int values[100], i, sum = 0, n;
 
+int main(void)
+{
+    int sum = 0;
     srand(time(NULL));
 
-    for (i = 0; i < 100; i++)
+    while (sum < 2772)
     {
-        values[i] = rand() % 78;
-        sum += values[i];
-        putchar(values[i] + 33);  
+        char character = rand() % 95 + 32; 
+        int remaining = 2772 - sum;
+
+        if (character <= remaining)
+        {
+            putchar(character);
+            sum += character;
+        }
     }
 
-    n = 2772 - sum;
-    putchar(n + 33); 
     return 0;
 }
