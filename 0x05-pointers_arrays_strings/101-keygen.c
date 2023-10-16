@@ -7,23 +7,24 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-    int sum = 0;
-    srand(time(NULL));
-
-    while (sum < 2772)
-    {
-        char character = rand() % 95 + 32; 
-        int remaining = 2772 - sum;
-
-        if (character <= remaining)
-        {
-            putchar(character);
-            sum += character;
-        }
-    }
-
-    return 0;
+int pass[100];
+int i, sum, n;
+sum = 0;
+srand(time(NULL));
+for (i = 0; i < 100; i++)
+{
+pass[i] = rand() % 78;
+sum += (pass[i] + '0');
+putchar(pass[i] + '0');
+if ((2772 - sum) - '0' < 78)
+{
+n = 2772 - sum - '0';
+sum += n;
+putchar(n + '0');
+break;
+}
+}
+return (0);
 }
