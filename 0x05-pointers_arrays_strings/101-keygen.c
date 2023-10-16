@@ -19,9 +19,9 @@ int main (void)
 		sum += values[i];
 		printf("%d ", values[i]);
 
-		if ((5000 - sum) < 100)
+		if ((2772 - sum) - '0' < 78)
 		{
-			n = 5000 - sum;
+			n = 2772 - sum - '0';
 			sum += n;
 			printf("%d ", n);
 			break;
