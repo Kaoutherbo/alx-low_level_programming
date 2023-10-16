@@ -1,12 +1,10 @@
 #include"main.h"
 
 /**
- * swap_int - function that swap two numbers
- * 
+ * swap_int - function that swap two numbers 
  * @a: parameter to be checked
  * @b: parameter to be checked
- * 
- * Return: On success 1.
+ *  Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
 
