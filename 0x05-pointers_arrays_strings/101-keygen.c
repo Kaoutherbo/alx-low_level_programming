@@ -15,15 +15,15 @@ int main (void)
 	 srand(time(NULL));
 	 for (i = 0; i < 100; i++)
 	{
-		values[i] = rand() % 100;
+		values[i] = rand() % 78;
 		sum += values[i];
-		printf("%d ", values[i]);
+		putchar(values[i] + '0');
 
 		if ((2772 - sum) - '0' < 78)
 		{
 			n = 2772 - sum - '0';
 			sum += n;
-			printf("%d ", n);
+			putchar(n + '0');
 			break;
 		}
 	}
