@@ -28,6 +28,18 @@ This file contains a function that encodes a string into 1337.
 ### `100-rot13.c`: 
 This file contains a function that encodes a string using rot13.
 
+### `101-print_number.c`: 
+This file contains a function that prints an integer.
+
+### `102-magic.c`: 
+This file contains a function that prints a[2] = 98, followed by a new line.
+
+### `103-infinite_add.c`: 
+This file contains a function that adds two numbers.
+
+### `104-print_buffer.c`: 
+This file contains a function that prints a buffer.
+
 ### `_putchar.c`:
 This file contains a function that replaces the standard library function putchar().
 
