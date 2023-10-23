@@ -61,7 +61,7 @@ int main(void)
 ### File: 2-largest_number.c, main.h
 
 This program prints the largest of three integers.
-
+```
 #include "main.h"
 
 /**
@@ -91,6 +91,7 @@ int largest_number(int a, int b, int c)
 
     return (largest);
 }
+```
 Fix the code in 2-largest_number.c so that it correctly prints out the largest of three numbers, no matter the case.
 
 Line count will not be checked for this task.
