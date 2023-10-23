@@ -102,6 +102,7 @@ This program converts a date to the day of year and determines how many days are
 ### NOTE: FOR YOU TO UNDERSTAND THE CODE ON SAMPLE 2, YOU NEED KNOWLEDGE OF LOGIC TRUTH TABLE.
 
 Code sample 1
+```
 #include "main.h"
 
 /**
@@ -128,7 +129,9 @@ int main(void)
 
     return (0);
 }
+```
 Code sample 2 (You need knowledge on logic truth table) image
+```
 #include <stdio.h>
 #include "main.h"
 
@@ -156,9 +159,10 @@ int main(void)
 
     return (0);
 }
-
+```
 carrie@ubuntu:/debugging$
 carrie@ubuntu:/debugging$ cat 3-convert_day.c
+```
 #include "main.h"
 
 /**
@@ -211,7 +215,9 @@ int convert_day(int month, int day)
     }
     return (day);
 }
+```
 Code sample 3 (This is the code we are to work on)
+```
 #include <stdio.h>
 #include "main.h"
 
@@ -249,6 +255,7 @@ void print_remaining_days(int month, int day, int year)
         }
     }
 }
+```
 Output below ^1 looks good for 04/01/1997! We make a new main file 3-main_b.c to try a case that is a leap year: 02/29/2000.
 
 carrie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-convert_day.c 3-print_remaining_days.c 3-main_a.c -o 3-main_a 
