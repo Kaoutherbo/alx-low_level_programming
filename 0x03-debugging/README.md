@@ -31,6 +31,7 @@ Copy this main file. Comment out (don’t delete it!) the part of the code that 
 
 Don’t add or remove any lines of code, as we will be checking your line count. You are only allowed to comment out existing code.
 You do not have to compile with -Wall -Werror -Wextra -pedantic for this task.
+```
 #include <stdio.h>
 
 /**
@@ -55,6 +56,8 @@ int main(void)
 
         return (0);
 }
+```
+
 ### File: 2-largest_number.c, main.h
 
 This program prints the largest of three integers.
