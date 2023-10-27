@@ -6,7 +6,7 @@ In this directory we want to learn :
  
 --
 
-![image](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftechvidvan.com%2Ftutorials%2Fcommand-line-arguments-in-c%2F&psig=AOvVaw1IIts4um55xmZiyzD7o9nZ&ust=1698508544193000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKixjMbLloIDFQAAAAAdAAAAABAE)
+![](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftechvidvan.com%2Ftutorials%2Fcommand-line-arguments-in-c%2F&psig=AOvVaw1IIts4um55xmZiyzD7o9nZ&ust=1698508544193000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKixjMbLloIDFQAAAAAdAAAAABAE)
 
 ## Tasks:
 ### 0. It ain't what they call you, it's what you answer to
@@ -45,7 +45,7 @@ Write a program that adds positive numbers.
 * File: `4-add.c`
 
 ### 5. Minimal Number of Coins for Change
-####advanced
+#### advanced
 Write a program that prints the minimum number of coins to make change for an amount of money.
 
 * Usage: ./change cents
