@@ -4,9 +4,9 @@ In this directory we want to learn :
 * What are two prototypes of main that you know of, and in which case do you use one or the other
 * How to use __attribute__((unused)) or (void) to compile functions with unused variables or parameters
  
---
+ --
 
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftechvidvan.com%2Ftutorials%2Fcommand-line-arguments-in-c%2F&psig=AOvVaw1IIts4um55xmZiyzD7o9nZ&ust=1698508544193000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKixjMbLloIDFQAAAAAdAAAAABAE)
+![](https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/Command-Line-Arguments-in-C.jpg)
 
 ## Tasks:
 ### 0. It ain't what they call you, it's what you answer to
