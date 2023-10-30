@@ -1,5 +1,10 @@
 # Malloc and free project :
-
+in this repository we have to learn:
+* What is the difference between automatic and dynamic allocation
+* What is malloc and free and how to use them
+* Why and when use malloc
+* How to use valgrind to check for memory leak
+  
 ## Tasks:
 ### 0. Float like a butterfly, sting like a bee
 Write a function that creates an array of chars, and initializes it with a specific char.
