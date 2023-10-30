@@ -7,29 +7,34 @@
  *
  * @ac: arguments count
  * @av: arguments vector
- * Return: string
+ * Return: pointer to the new string
  */
 
 char *argstostr(int ac, char **av)
 {
-	int i, j, k = 0, count = 0;
-	char *str;
+	char *newStr = NULL;
+	int k = 0, i = ac, j, sum = 0, temp = 0;
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
-	for (i = 0; i < ac; i++)
-		count += strlen(av[i]);
-	str = (char *)malloc(sizeof(char) * count + 1);
-	if (str == NULL)
-		return (NULL);
-	for (i = 0; i < ac; i++)
+	while (ac--)
+		sum += (strlen(av[ac]) + 1);
+	newStr = (char *) malloc(sum + 1);
+	if (newStr != NULL)
 	{
-		for (j = 0; av[i][j] != '\0'; j++)
+		while (k < i)
 		{
-			str[k] = av[i][j];
+			for (j = 0; av[k][j] != '\0'; j++)
+				newStr[j + temp] = av[k][j];
+			newStr[temp + j] = '\n';
+			temp += (j + 1);
 			k++;
 		}
-		str[k++] = '\n';
+		newStr[temp] = '\0';
 	}
-	return (str);
+	else
+	{
+		return (NULL);
+	}
+	return (newStr);
 }
