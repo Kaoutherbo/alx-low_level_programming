@@ -28,7 +28,7 @@ Write a function that concatenates two strings.
 * The function should return NULL on failure
 * File: `2-str_concat.c`
 
-  ### 3. If you even dream of beating me you'd better wake up and apologize
+### 3. If you even dream of beating me you'd better wake up and apologize
 Write a function that returns a pointer to a 2 dimensional array of integers.
 
 * Prototype: int **alloc_grid(int width, int height);
@@ -37,7 +37,7 @@ Write a function that returns a pointer to a 2 dimensional array of integers.
 * If width or height is 0 or negative, return NULL
 * File: `3-alloc_grid.c`
 
-  ### 4. It's not bragging if you can back it up
+### 4. It's not bragging if you can back it up
 Write a function that frees a 2 dimensional grid previously created by your alloc_grid function.
 
 * Prototype: void free_grid(int **grid, int height);
@@ -54,7 +54,7 @@ Write a function that concatenates all the arguments of your program.
 * Each argument should be followed by a \n in the new string
 * File: `100-argstostr.c`
 
-  ### 6. I will show you how great I am
+### 6. I will show you how great I am
 #### advanced
 Write a function that splits a string into words.
 
