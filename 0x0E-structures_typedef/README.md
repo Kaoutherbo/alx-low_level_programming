@@ -12,4 +12,3 @@ Define a new type struct dog with the following elements:
 * age, type = float
 * owner, type = char *
 
-
