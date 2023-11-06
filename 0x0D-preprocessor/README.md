@@ -27,4 +27,8 @@ Write a program that prints the name of the file it was compiled from, followed 
 Write a function-like macro ABS(x) that computes the absolute value of a number x.
 * File: `3-function_like_macro.h`
 
-### 
+### 4. SUM
+
+Write a function-like macro SUM(x, y) that computes the sum of the numbers x and y.
+* File: `4-sum.h`
+  
