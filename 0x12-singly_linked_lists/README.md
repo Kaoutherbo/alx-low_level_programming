@@ -46,4 +46,11 @@ Write a function that adds a new node at the end of a list_t list.
 * You are allowed to use strdup
 * File: `3-add_node_end.c`
 
+### 4. Free list
+
+Write a function that frees a list_t list.
+
+* Prototype: void free_list(list_t *head);
+* File: `4-free_list.c`
+
 ### 
