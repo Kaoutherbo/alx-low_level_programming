@@ -71,4 +71,8 @@ Write a 64-bit program in assembly that prints Hello, Holberton, followed by a n
 ```
 nasm -f elf64 101-hello_holberton.asm && gcc -no-pie -std=gnu89 101-hello_holberton.o -o hello
 ```
+* Run the file using :
+```
+./first
+```
 * File: `101-hello_holberton.asm`
