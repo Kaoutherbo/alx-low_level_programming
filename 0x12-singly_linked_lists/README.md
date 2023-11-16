@@ -68,7 +68,6 @@ Write a 64-bit program in assembly that prints Hello, Holberton, followed by a n
 * You are only allowed to use the printf function
 * You are not allowed to use interrupts
 * Your program will be compiled using nasm and gcc:
-  ```
-nasm -f elf64 101-hello_holberton.asm && gcc -no-pie -std=gnu89 101-hello_holberton.o -o hello
+```nasm -f elf64 101-hello_holberton.asm && gcc -no-pie -std=gnu89 101-hello_holberton.o -o hello
 ```
 * File: `101-hello_holberton.asm`
