@@ -7,7 +7,7 @@ In this project we are expected to know :
 <img src ="https://simplesnippets.tech/wp-content/uploads/2019/06/singly-linked-list-data-structure.jpg" width = "100%" />
 
 # Tasks :
-## Mendatory:
+## Mendatory Tasks:
 ### 0. Print list
 
 Write a function that prints all the elements of a list_t list.
